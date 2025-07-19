@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 sex = TelegramClient('sexrepo', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-gnbot = Client('babysss', api_id=API_ID, api_hash=API_HASH, session_string=DEFAULT_SESSION)
+gnbot = Client('babysss', api_id=API_ID, api_hash=API_HASH)
 try:
     gnbot.start()
 except Exception as e:
